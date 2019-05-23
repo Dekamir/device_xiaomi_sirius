@@ -7,8 +7,10 @@
 $(call inherit-product, device/xiaomi/sirius/device.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/havoc/config/common.mk)
+# Gapps
 TARGET_GAPPS_ARCH := arm64
+# Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_sirius
