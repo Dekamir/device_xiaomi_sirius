@@ -7,13 +7,13 @@
 $(call inherit-product, device/xiaomi/sirius/device.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/descendant/config/common.mk)
 # Gapps
 TARGET_GAPPS_ARCH := arm64
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_sirius
+PRODUCT_NAME := descendant_sirius
 PRODUCT_DEVICE := sirius
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 8 SE
@@ -27,5 +27,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="sirius"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-# Official build
-DOT_BUILD_TYPE := OFFICIAL
