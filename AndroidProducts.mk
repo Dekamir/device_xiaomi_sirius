@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/dot_sirius.mk
+	$(LOCAL_DIR)/descendant_sirius.mk
