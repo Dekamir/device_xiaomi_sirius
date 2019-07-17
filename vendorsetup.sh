@@ -1,2 +1,1 @@
-add_lunch_combo dot_sirius-userdebug
-
+add_lunch_combo descendant_sirius-userdebug
