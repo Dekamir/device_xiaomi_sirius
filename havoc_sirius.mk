@@ -13,7 +13,7 @@ TARGET_GAPPS_ARCH := arm64
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_sirius
+PRODUCT_NAME := havoc_sirius
 PRODUCT_DEVICE := sirius
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 8 SE
